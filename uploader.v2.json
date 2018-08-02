@@ -656,6 +656,11 @@
             "symbolic_name": "ss"
         },
         {
+            "command": "/usr/sbin/ss -tupna",
+            "pattern": [],
+            "symbolic_name": "ss_tupna"
+        },
+        {
             "command": "/bin/ls -l /etc/ssh/sshd_config",
             "pattern": [],
             "symbolic_name": "sshd_config_perms"
